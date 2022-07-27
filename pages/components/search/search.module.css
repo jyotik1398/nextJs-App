@@ -1,0 +1,40 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchText {
+  color: rgb(169, 94, 240);
+  font-size: 18px;
+  padding-right: 10px;
+}
+.textArea {
+  border-radius: 20px;
+  border: thin solid transparent;
+  width: 300px;
+  height: 60px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.icon {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+.icon:focus {
+  transform: scale(1.1);
+}
+.textArea:hover {
+  border: thin solid transparent;
+  outline: none;
+}
+.textArea:focus {
+  border: thin solid transparent;
+  outline: none;
+}
+.textArea::placeholder {
+  font-size: 18px;
+  text-align: start;
+}

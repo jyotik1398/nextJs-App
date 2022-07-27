@@ -1,0 +1,19 @@
+.outerWrapper {
+  padding: 24px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+.image {
+  border-radius: 50%;
+}
+.innerWrapper {
+  padding: 24px;
+  color: brown;
+  line-height: 20px;
+}
+.id {
+  font-weight: bold;
+}
