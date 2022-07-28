@@ -35,7 +35,7 @@ export default function User({ user }) {
       />
       <div className={styles.cardContainer}>
         {filterData === null &&
-          user.map((user, index) => {
+          user?.map((user, index) => {
             return (
               <Link
                 href={{
